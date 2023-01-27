@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto+Serif:opsz,wght@8..144,300;8..144,400;8..144,700&display=swap');
+
+
+:root {
+    --clr-big-card-bg: hsl(0, 0%, 100%);
+    --clr-bg-body: hsl(212, 45%, 89%);
+    --clr-primary-1: hsl(220, 15%, 55%);
+    --clr-primary-2: hsl(218, 44%, 22%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--clr-bg-body);
+    font-size: 15px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25% 0;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    margin: 30px 50px;
+    height: 500px;
+}
+
+img {
+    padding: 15px 15px 20px 15px;
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
+}
+
+.card-text {
+   /* margin-left: 0 auto; */
+   text-align: center;
+   line-height: 1.2;
+   
+}
+
+.card-text h2 {
+    padding: 5px 0;
+    align-self: stretch;
+    color: var(--clr-primary-2);
+    font-weight: bold;
+    font-weight: 700;
+}
+
+.card-text p {
+    color: var(--clr-primary-1);
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 400;
+}
